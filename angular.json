@@ -3,12 +3,16 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-
 	},
 	"defaultProject": "",
 	"schematics": {
+		"@schematics/angular:module": {
+			"routing": true,
+			"commonModule": false
+		},
 		"@schematics/angular:component": {
 			"styleext": "scss",
+			"changeDetection": "OnPush",
 			"lintFix": true
 		},
 		"@schematics/angular:directive": {
