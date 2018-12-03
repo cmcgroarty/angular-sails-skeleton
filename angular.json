@@ -5,5 +5,20 @@
 	"projects": {
 
 	},
-	"defaultProject": ""
+	"defaultProject": "",
+	"schematics": {
+		"@schematics/angular:component": {
+			"styleext": "scss",
+			"lintFix": true
+		},
+		"@schematics/angular:directive": {
+			"lintFix": true
+		},
+		"@schematics/angular:pipe": {
+			"lintFix": true
+		},
+		"@schematics/angular:service": {
+			"lintFix": true
+		}
+	}
 }
